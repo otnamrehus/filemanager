@@ -2,22 +2,39 @@
 Docker Filemanager [Simple] 
 
 1. Kopi Ke Komputer
+   
    git clone https://github.com/otnamrehus/filemanager.git
-2. Kedlam Direktori <br>
+   
+2. Kedalam Direktori
+   
    cd filemanager
-3. Jalankan Docker <br>
-   docker-compose -p 'filemanager' up    <i> # Jalankan sementar selama console server aktif</i><br>
-   atau <br>
-   docker-compose -p 'filemanager' up -d  <i># Jalankan Background System / Daemon</i>
-5. Hentikkan Docker <br>
-   docker-compose -p 'filemanager' stop   <i># Stop Container</i> <br>
-   atau langsung<br>
-   docker-compose -p 'filemanager' down   <i># Hapus Container</i>
-6. Buka Browser <br>
+   
+3. Jalankan Docker
+   
+   docker-compose -p 'filemanager' up  
+   
+   atau
+   
+   docker-compose -p 'filemanager' up -d 
+   
+4. Hentikkan Docker
+   
+   docker-compose -p 'filemanager' stop 
+   
+   atau langsung
+   
+   docker-compose -p 'filemanager' down
+   
+5. Buka Browser
+    
    http://ip_address:3333
-7. Akun <br>
+   
+6. Akun
+   
    admin / admin@123
+   
    user / 12345
+   
    
 Sumber: https://github.com/prasathmani/tinyfilemanager/
 
