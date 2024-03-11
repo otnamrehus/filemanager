@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  tinyfilemanager:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tiny
+    hostname: tiny
+    ports:
+      - "3333:80"
+      - "3322:22"
+    volumes:
+      - "/root/hardisk/SHARE:/var/www/html/data"
+    restart: always
