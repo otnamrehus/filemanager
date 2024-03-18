@@ -4,5 +4,5 @@ FROM foxi3/tinyfilemanager:2.5.0    ## FOR ARM
 
 # Instalasi paket yang diperlukan
 RUN apk update && \
-    apk add --no-cache nano bash openrc openssh unzip zip rar unrar && \
+    apk add --no-cache nano bash openrc openssh unzip zip && \
     echo -e "PermitRootLogin yes" >> /etc/ssh/sshd_config
