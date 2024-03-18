@@ -1,15 +1,15 @@
 version: '3'
 
 services:
-  tinyfilemanager:
+  direktorir:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: tiny
-    hostname: tiny
+    container_name: direktori
+    hostname: direktori
     ports:
       - "3333:80"   ### Atur Port Default Browser Host anda disini.
       - "3322:22"   ### Atur Port SSH Host anda disini.
     volumes:
-      - "/root/hardisk/SHARE:/var/www/html/data"   ### Atur Direktori Host anda disini.
+      - "/root/hardisk/direktori:/var/www/html/data"   ### Atur Direktori Host anda disini.
     restart: always
