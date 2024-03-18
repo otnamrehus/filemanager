@@ -1,0 +1,21 @@
+########################################### VERSION 2.4.7 ########################################
+version: '3'
+services:
+  direktori:
+    build:
+      context: .
+      dockerfile: 'Dockerfile'
+    volumes:
+      - 'direktori:/var/www/html/data'
+      - './config.php:/var/www/html/config.php' 
+    ports:
+      - 3333:80
+      - 3322:22
+
+volumes:
+  direktori:
+    driver: local
+    driver_opts:
+      type: none
+      device: '/root/hardisk/direktori'
+      o: bind
