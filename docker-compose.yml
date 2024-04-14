@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: 'Dockerfile'
-      container_name: 'direktori'
+    container_name: 'direktori'
     volumes:
       - 'direktori:/var/www/html/data'
       - './config.php:/var/www/html/config.php' 
