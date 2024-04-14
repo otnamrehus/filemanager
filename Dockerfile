@@ -1,6 +1,9 @@
-FROM foxi3/tinyfilemanager:2.5.0    ## FOR ARM
-#FROM tinyfilemanager/tinyfilemanager:2.4.7    ## FOR AMD
-#FROM tinyfilemanager/tinyfilemanager:2.5.3    ## FOR AMD
+## FOR ARM
+#FROM foxi3/tinyfilemanager:2.5.0    
+
+## FOR AMD/PC/X86_64
+FROM tinyfilemanager/tinyfilemanager:2.4.7
+#FROM tinyfilemanager/tinyfilemanager:2.5.3
 
 # Instalasi paket yang diperlukan
 RUN apk update && \
