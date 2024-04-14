@@ -4,7 +4,7 @@
 if [[ "$(uname -m)" == "aarch64" ]]; then
     ARCHITECTURE="foxi3/tinyfilemanager:2.5.0"  # Versi untuk ARM
 elif [[ "$(uname -m)" == "x86_64" ]]; then
-    ARCHITECTURE="tinyfilemanager/tinyfilemanager:2.4.7"  # Versi untuk AMD
+    ARCHITECTURE="tinyfilemanager/tinyfilemanager:2.4.7"  # Versi untuk AMD 
 else
     echo "Arsitektur mesin tidak didukung."
     exit 1
