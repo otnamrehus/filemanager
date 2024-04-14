@@ -1,3 +1,20 @@
+# filemanager [Update-New Version]
+Docker Filemanager [Simple New] 
+
+1. Kopi Ke Komputer
+   
+   git clone https://github.com/otnamrehus/filemanager.git
+   
+2. Kedalam Direktori
+   
+   mkdir -p /root/hardisk/direktori && \
+   cd filemanager && \
+   chmod +x build.sh
+   
+4. Jalankan Docker
+   
+   ./build.sh
+   
 # filemanager
 Docker Filemanager [Simple] 
 
