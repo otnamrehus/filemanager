@@ -12,11 +12,11 @@ Docker Filemanager [Simple]
    
 3. Jalankan Docker
    
-   docker-compose -p 'filemanager' up  
+   docker-compose -p 'filemanager' up  --build
    
    atau
    
-   docker-compose -p 'filemanager' up -d 
+   docker-compose -p 'filemanager' up --build -d 
    
 4. Hentikkan Docker
    
